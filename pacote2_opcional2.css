@@ -1,0 +1,355 @@
+body{
+    background-color: aqua;
+    background-image: url("./produtos/fundo\ dia.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment:fixed;
+    min-height: 100vh;
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+    .titulo{
+        display: block;
+        margin: 0 auto;
+        padding: 5px;
+        font-size: 15px;
+        max-width: 80px;
+        border-radius: 10px;
+        border: 1px solid rgb(69, 8, 182);
+        box-shadow: 0 1px 20px #00ccff;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #ffffff;
+        background-color: #09189c;
+    }
+
+    .caixa {
+        display: grid;                
+        grid-template-columns:repeat(2, 1fr); 
+        width: 100%;    
+        gap: 0px;                  
+        justify-content: center;
+        align-items: center;
+
+                        
+    }
+
+    .decoracao1{
+        max-width: 170px;                   
+        height: auto;
+        display: grid;
+        margin: 0 auto;
+        margin-top: 15px;
+
+
+
+        
+    }
+    .decoracao2{
+        max-width: 170px;                   
+        height: auto;
+        display: grid;
+        margin: 0 auto;
+        margin-top:15px;
+        margin-left: 5px;
+        
+    }
+
+    .caixa2{
+        display: grid;                
+        grid-template-columns:repeat(2, 1fr); 
+        width: 100%;    
+        gap: 0px;                  
+        justify-content: center;
+        align-items: center;
+    }
+    .mimos1{
+        max-width: 170px;                   
+        height: auto;
+        display: grid;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    .mimos2{
+        max-width: 170px;                   
+        height: auto;
+        display: grid;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+
+    .info{
+        font-size: 16px;
+        background-color: #09189c;
+        color: #ffffff;
+        box-shadow: 0 1px 20px #0004ff;
+        margin: 0 auto;
+        margin-top: 10px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+    }
+
+    .voltar{
+        font-size: 16px;
+        color: rgb(255, 255, 255);
+        background-color: #09189c;
+        border: 1px solid #001aff;
+        box-shadow: 0 1px 10px #1900ff;
+        text-decoration: none;
+        padding: 1px 15px;
+        border-radius: 10px;
+        display:inline-flex;
+        margin:0 auto;
+        margin-top: 25px;
+    }
+    .whats{
+        font-size: 16px;
+        color: rgb(255, 255, 255);
+        background-color: #09189c;
+        border: 1px solid #0026ff;
+        box-shadow: 0 2px 12px #1201ff;
+        padding: 1px 10px;
+        border-radius: 20px;
+        text-decoration: none;
+        display: inline-flex;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+
+}
+
+@media(min-width: 375px) and (max-width: 424px){
+    .titulo{
+        display: block;
+        margin: 0 auto;
+        padding: 5px;
+        font-size: 17px;
+        max-width: 80px;
+        border-radius: 10px;
+        border: 1px solid rgb(69, 8, 182);
+        box-shadow: 0 1px 20px #00ccff;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #ffffff;
+        background-color: #09189c;
+    }
+    .caixa {
+        display: grid;                
+        grid-template-columns:repeat(2, 1fr); 
+        width: 100%;    
+        gap: 0px;                  
+        justify-content: center;
+        align-items: center;
+
+                        
+    }
+
+    .decoracao1{
+        max-width: 205px;                   
+        height: auto;
+        display: grid;
+        margin: 0 auto;
+        margin-top: 15px;
+
+
+
+        
+    }
+    .decoracao2{
+        max-width: 205px;                   
+        height: auto;
+        display: grid;
+        margin: 0 auto;
+        margin-top:15px;
+        margin-left: 5px;
+        
+    }
+
+    .caixa2{
+        display: grid;                
+        grid-template-columns:repeat(2, 1fr); 
+        width: 100%;    
+        gap: 0px;                  
+        justify-content: center;
+        align-items: center;
+    }
+    .mimos1{
+        max-width: 205px;                   
+        height: auto;
+        display: grid;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    .mimos2{
+        max-width: 205px;                   
+        height: auto;
+        display: grid;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+
+    .info{
+        font-size: 18px;
+        background-color: #09189c;
+        color: #ffffff;
+        box-shadow: 0 1px 20px #0004ff;
+        margin: 0 auto;
+        margin-top: 10px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+    }
+
+    .voltar{
+        font-size: 18px;
+        color: rgb(255, 255, 255);
+        background-color: #09189c;
+        border: 1px solid #001aff;
+        box-shadow: 0 1px 10px #1900ff;
+        text-decoration: none;
+        padding: 1px 15px;
+        border-radius: 10px;
+        display:inline-flex;
+        margin:0 auto;
+        margin-top: 25px;
+    }
+    .whats{
+        font-size: 18px;
+        color: rgb(255, 255, 255);
+        background-color: #09189c;
+        border: 1px solid #0026ff;
+        box-shadow: 0 2px 12px #1201ff;
+        padding: 1px 10px;
+        border-radius: 20px;
+        text-decoration: none;
+        display: inline-flex;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+}
+
+
+@media(min-width: 425px) and (max-width: 767px){
+    .titulo{
+        display: block;
+        margin: 0 auto;
+        padding: 5px;
+        font-size: 19px;
+        max-width: 80px;
+        border-radius: 10px;
+        border: 1px solid rgb(69, 8, 182);
+        box-shadow: 0 1px 20px #00ccff;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #ffffff;
+        background-color: #09189c;
+    }
+
+    .caixa {
+        display: grid;                
+        grid-template-columns:repeat(2, 1fr); 
+        width: 100%;    
+        gap: 0px;                  
+        justify-content: center;
+        align-items: center;
+
+                        
+    }
+
+    .decoracao1{
+        max-width: 235px;                   
+        height: auto;
+        display: grid;
+        margin: 0 auto;
+        margin-top: 15px;
+
+
+
+        
+    }
+    .decoracao2{
+        max-width: 235px;                   
+        height: auto;
+        display: grid;
+        margin: 0 auto;
+        margin-top:15px;
+        margin-left: 5px;
+        
+    }
+
+    .caixa2{
+        display: grid;                
+        grid-template-columns:repeat(2, 1fr); 
+        width: 100%;    
+        gap: 0px;                  
+        justify-content: center;
+        align-items: center;
+    }
+    .mimos1{
+        max-width: 235px;                   
+        height: auto;
+        display: grid;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    .mimos2{
+        max-width: 235px;                   
+        height: auto;
+        display: grid;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+
+    .info{
+        font-size: 20px;
+        background-color: #09189c;
+        color: #ffffff;
+        box-shadow: 0 1px 20px #0004ff;
+        margin: 0 auto;
+        margin-top: 10px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+    }
+
+    .voltar{
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+        background-color: #09189c;
+        border: 1px solid #001aff;
+        box-shadow: 0 1px 10px #1900ff;
+        text-decoration: none;
+        padding: 1px 15px;
+        border-radius: 10px;
+        display:inline-flex;
+        margin:0 auto;
+        margin-top: 25px;
+    }
+    .whats{
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+        background-color: #09189c;
+        border: 1px solid #0026ff;
+        box-shadow: 0 2px 12px #1201ff;
+        padding: 1px 10px;
+        border-radius: 20px;
+        text-decoration: none;
+        display: inline-flex;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+}

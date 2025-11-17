@@ -1,0 +1,551 @@
+body{
+    background-color: rgb(2, 25, 100);
+    background-image: url("./produtos/fundo\ noite.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment:fixed;
+    min-height: 100vh;
+}
+@media (min-width: 320px) and (max-width: 374px) {
+    .titulo{
+        color: #ffffff;
+        display: block;
+        margin: 0 auto;
+        padding: 5px;
+        font-size: 15px;
+        max-width: 150px;
+        border-radius: 10px;
+        border: 1px solid rgb(15, 153, 233);
+        box-shadow: 0 4px 12px #1382dd;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: #0d4496;
+    }
+
+    .caixa {
+        display: grid;                
+        grid-template-columns: repeat(2, 1fr); 
+        width: 100%;    
+        gap: 20px;                  
+        max-width: 320px; 
+                        
+    }
+
+    .decoracao1{
+        max-width: 248px;                   
+        height: auto;
+        display: grid;
+        margin: 0 auto;
+        margin-top: -90px;
+        margin-left: -90px;
+        
+    }
+    .decoracao2{
+        max-width: 270px;                   
+        height: auto;
+        display: grid;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-left: -100px;
+        border-radius: 10px;
+ 
+    }
+
+    .caixa2{
+        display: grid;                
+        grid-template-columns: repeat(2, 1fr); 
+        width: 100%;    
+        gap: 20px;                  
+        max-width: 320px; 
+    }
+    .mimos1{
+        max-width: 250px;                   
+        height: auto;
+        display: grid;
+        margin: 0 auto;
+        margin-top: -220px;
+        margin-left: -91px;
+    }
+
+    .mimos2{
+        max-width: 270px;                   
+        height: auto;
+        display: grid;
+        margin: 0 auto;
+        margin-top: -110px;
+        margin-left: -101px;
+        border-radius: 10px;
+    }
+
+    .caixa3{
+        display: grid;                
+        grid-template-columns: repeat(2, 1fr); 
+        width: 100%;    
+        gap: 20px;                  
+        max-width: 320px; 
+    }
+
+    .doces1{
+        max-width: 250px;                   
+        height: auto;
+        display: grid;
+        margin: 0 auto;
+        margin-top: -220px;
+        margin-left: -87px;
+    }
+
+    .doces2{
+        max-width: 270px;                   
+        height: auto;
+        display: grid;
+        margin: 0 auto;
+        margin-top: -103px;
+        margin-left: -103px;
+        border-radius: 10px;
+    }
+
+    .caixa4{
+        display: grid;                
+        grid-template-columns: repeat(2, 1fr); 
+        width: 100%;    
+        gap: 20px;                  
+        max-width: 320px; 
+    }
+
+    .salgados1{
+        max-width: 250px;                   
+        height: auto;
+        display: grid;
+        margin: 0 auto;
+        margin-top: -200px;
+        margin-left: -90px;
+    }
+
+    .salgados2{
+        max-width: 270px;                   
+        height: auto;
+        display: grid;
+        margin: 0 auto;
+        margin-top: -94px;
+        margin-left: -100px;
+        border-radius: 10px;
+    }
+    .valor{
+        font-size: 20px;
+        color: #ffffff;
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: -95px;
+        border: 1px solid rgb(0, 183, 255);
+        background-color: #0d4496;
+        box-shadow: 0 4px 12px #0767e6;
+        border-radius: 20px;
+    }
+
+    .voltar{
+        font-size: 15px;
+        color: rgb(255, 255, 255);
+        background-color: #0d4496;
+        border: 1px solid #00e1ff;
+        box-shadow: 0 1px 10px #0882e6;
+        text-decoration: none;
+        padding: 1px 10px;
+        border-radius: 10px;
+        display:inline-flex;
+        margin:0 auto;
+        margin-top: 10px;
+    }
+    .whats{
+        font-size: 16px;
+        color: rgb(255, 255, 255);
+        background-color: #0d4496;
+        border: 1px solid #00f7ff;
+        box-shadow: 0 2px 12px #08a7cf;
+        padding: 1px 10px;
+        border-radius: 20px;
+        text-decoration: none;
+        display: inline-flex;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+    .opcional{
+        font-size: 15px;
+        color: rgb(255, 255, 255);
+        background-color: #0d4496;
+        border: 1px solid #00e1ff;
+        box-shadow: 0 2px 12px #0c7ad3;
+        padding: 1px 10px;
+        border-radius: 20px;
+        text-decoration: none;
+        display: inline-flex;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+    }
+
+
+@media(min-width: 375px) and (max-width: 424px){
+    .titulo{
+        color: #ffffff;
+        display: block;
+        margin: 0 auto;
+        padding: 5px;
+        font-size: 15px;
+        max-width: 150px;
+        border-radius: 10px;
+        border: 1px solid rgb(0, 225, 255);
+        box-shadow: 0 4px 12px #0084ff;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: #0d4496;
+    }
+
+    .caixa {
+        display: grid;                
+        grid-template-columns: repeat(2, 1fr); 
+        width: 100%;    
+        gap: 20px;                  
+        max-width: 320px; 
+                        
+    }
+
+    .decoracao1{
+        max-width: 248px;                   
+        height: auto;
+        display: grid;
+        margin: 0 auto;
+        margin-top: -85px;
+        margin-left: -90px;
+        
+    }
+    .decoracao2{
+        max-width: 310px;                   
+        height: auto;
+        display: grid;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-left: -100px;
+        border-radius: 10px;
+    }
+
+    .caixa2{
+        display: grid;                
+        grid-template-columns: repeat(2, 1fr); 
+        width: 100%;    
+        gap: 20px;                  
+        max-width: 320px; 
+    }
+    .mimos1{
+        max-width: 250px;                   
+        height: auto;
+        display: grid;
+        margin: 0 auto;
+        margin-top: -205px;
+        margin-left: -91px;
+    }
+
+    .mimos2{
+        max-width: 310px;                   
+        height: auto;
+        display: grid;
+        margin: 0 auto;
+        margin-top: -101px;
+        margin-left: -101px;
+        border-radius: 10px;
+    }
+
+    .caixa3{
+        display: grid;                
+        grid-template-columns: repeat(2, 1fr); 
+        width: 100%;    
+        gap: 20px;                  
+        max-width: 320px; 
+    }
+
+    .doces1{
+        max-width: 250px;                   
+        height: auto;
+        display: grid;
+        margin: 0 auto;
+        margin-top: -205px;
+        margin-left: -87px;
+    }
+
+    .doces2{
+        max-width: 310px;                   
+        height: auto;
+        display: grid;
+        margin: 0 auto;
+        margin-top: -94px;
+        margin-left: -103px;
+        border-radius: 10px;
+    }
+
+    .caixa4{
+        display: grid;                
+        grid-template-columns: repeat(2, 1fr); 
+        width: 100%;    
+        gap: 20px;                  
+        max-width: 320px; 
+    }
+
+    .salgados1{
+        max-width: 250px;                   
+        height: auto;
+        display: grid;
+        margin: 0 auto;
+        margin-top: -190px;
+        margin-left: -90px;
+    }
+
+    .salgados2{
+        max-width: 310px;                   
+        height: auto;
+        display: grid;
+        margin: 0 auto;
+        margin-top: -87px;
+        margin-left: -100px;
+        border-radius: 10px;
+    }
+    .valor{
+        font-size: 20px;
+        color: #ffffff;
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: -80px;
+        border: 1px solid rgb(0, 225, 255);
+        background-color: #0d4496;
+        box-shadow: 0 4px 12px #0485b8;
+        border-radius: 20px;
+    }
+
+    .voltar{
+        font-size: 17px;
+        color: rgb(255, 255, 255);
+        background-color: #0d4496;
+        border: 1px solid #00d9ff;
+        box-shadow: 0 1px 10px #079dd8;
+        text-decoration: none;
+        padding: 1px 15px;
+        border-radius: 10px;
+        display:inline-flex;
+        margin:0 auto;
+        margin-top: 10px;
+    }
+    .whats{
+        font-size: 17px;
+        color: rgb(255, 255, 255);
+        background-color: #0d4496;
+        border: 1px solid #00ccff;
+        box-shadow: 0 2px 12px #06b0e4;
+        padding: 1px 10px;
+        border-radius: 20px;
+        text-decoration: none;
+        display: inline-flex;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+    .opcional{
+        font-size: 17px;
+        color: rgb(255, 255, 255);
+        background-color: #0d4496;
+        border: 1px solid #00d9ff;
+        box-shadow: 0 2px 12px #05a8d1;
+        padding: 1px 10px;
+        border-radius: 20px;
+        text-decoration: none;
+        display: inline-flex;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+}
+
+
+@media(min-width: 425px) and (max-width: 767px){
+    .titulo{
+        color: #ffffff;
+        display: block;
+        margin: 0 auto;
+        padding: 5px;
+        font-size: 15px;
+        max-width: 150px;
+        border-radius: 10px;
+        border: 1px solid rgb(0, 225, 255);
+        box-shadow: 0 4px 12px #0084ff;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: #0d4496;
+    }
+
+    .caixa {
+        display: grid;                
+        grid-template-columns: repeat(2, 1fr); 
+        width: 100%;    
+        gap: 20px;                  
+        max-width: 320px; 
+                        
+    }
+
+    .decoracao1{
+        max-width: 248px;                   
+        height: auto;
+        display: grid;
+        margin: 0 auto;
+        margin-top: -85px;
+        margin-left: -90px;
+        
+    }
+    .decoracao2{
+        max-width: 310px;                   
+        height: auto;
+        display: grid;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-left: -100px;
+        border-radius: 10px;
+    }
+
+    .caixa2{
+        display: grid;                
+        grid-template-columns: repeat(2, 1fr); 
+        width: 100%;    
+        gap: 20px;                  
+        max-width: 320px; 
+    }
+    .mimos1{
+        max-width: 250px;                   
+        height: auto;
+        display: grid;
+        margin: 0 auto;
+        margin-top: -205px;
+        margin-left: -91px;
+    }
+
+    .mimos2{
+        max-width: 310px;                   
+        height: auto;
+        display: grid;
+        margin: 0 auto;
+        margin-top: -101px;
+        margin-left: -101px;
+        border-radius: 10px;
+    }
+
+    .caixa3{
+        display: grid;                
+        grid-template-columns: repeat(2, 1fr); 
+        width: 100%;    
+        gap: 20px;                  
+        max-width: 320px; 
+    }
+
+    .doces1{
+        max-width: 250px;                   
+        height: auto;
+        display: grid;
+        margin: 0 auto;
+        margin-top: -205px;
+        margin-left: -87px;
+    }
+
+    .doces2{
+        max-width: 310px;                   
+        height: auto;
+        display: grid;
+        margin: 0 auto;
+        margin-top: -94px;
+        margin-left: -103px;
+        border-radius: 10px;
+    }
+
+    .caixa4{
+        display: grid;                
+        grid-template-columns: repeat(2, 1fr); 
+        width: 100%;    
+        gap: 20px;                  
+        max-width: 320px; 
+    }
+
+    .salgados1{
+        max-width: 250px;                   
+        height: auto;
+        display: grid;
+        margin: 0 auto;
+        margin-top: -190px;
+        margin-left: -90px;
+    }
+
+    .salgados2{
+        max-width: 310px;                   
+        height: auto;
+        display: grid;
+        margin: 0 auto;
+        margin-top: -87px;
+        margin-left: -100px;
+        border-radius: 10px;
+    }
+    .valor{
+        font-size: 20px;
+        color: #ffffff;
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: -80px;
+        border: 1px solid rgb(0, 225, 255);
+        background-color: #0d4496;
+        box-shadow: 0 4px 12px #0485b8;
+        border-radius: 20px;
+    }
+
+    .voltar{
+        font-size: 17px;
+        color: rgb(255, 255, 255);
+        background-color: #0d4496;
+        border: 1px solid #00d9ff;
+        box-shadow: 0 1px 10px #079dd8;
+        text-decoration: none;
+        padding: 1px 15px;
+        border-radius: 10px;
+        display:inline-flex;
+        margin:0 auto;
+        margin-top: 10px;
+    }
+    .whats{
+        font-size: 17px;
+        color: rgb(255, 255, 255);
+        background-color: #0d4496;
+        border: 1px solid #00ccff;
+        box-shadow: 0 2px 12px #06b0e4;
+        padding: 1px 10px;
+        border-radius: 20px;
+        text-decoration: none;
+        display: inline-flex;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+    .opcional{
+        font-size: 17px;
+        color: rgb(255, 255, 255);
+        background-color: #0d4496;
+        border: 1px solid #00d9ff;
+        box-shadow: 0 2px 12px #05a8d1;
+        padding: 1px 10px;
+        border-radius: 20px;
+        text-decoration: none;
+        display: inline-flex;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+}
